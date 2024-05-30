@@ -1,0 +1,20 @@
+.h-section {
+  text-align: center;
+  margin-left: 0;
+  margin-top: 109.52px;
+  margin-bottom: 16px;
+
+  margin-left: 0;
+  @media screen and (min-width: $bp-tablet) {
+    text-align: justify;
+
+    margin-left: 122px;
+  }
+}
+
+.h-title {
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+}

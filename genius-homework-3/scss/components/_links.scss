@@ -1,0 +1,14 @@
+.link {
+  color: var(--color-primary-dark);
+  line-height: 1.5;
+  font-weight: 400;
+  transition: color 0.2s;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "roboto", sans-serif;
+}
+
+.link:hover {
+  color: var(--сolor-primary-light);
+  /* font-weight: 700; */
+}

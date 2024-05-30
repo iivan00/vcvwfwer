@@ -1,0 +1,27 @@
+.photo-before {
+  display: none;
+  border-radius: 50%;
+  position: relative;
+  @media screen and (min-width: $bp-desktop) {
+    display: block;
+  }
+}
+
+.photo-after {
+  display: none;
+  padding-top: 40px;
+  border-radius: 50%;
+  max-width: 343px;
+  margin-left: 168px;
+  @media screen and (min-width: $bp-desktop) {
+    display: block;
+  }
+}
+
+.traditions-section {
+  margin-bottom: 16px;
+
+  @media screen and (min-width: $bp-desktop) {
+    margin-bottom: 40px;
+  }
+}

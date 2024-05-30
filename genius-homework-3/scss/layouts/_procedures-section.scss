@@ -1,0 +1,40 @@
+.procedures-section {
+  &__slider {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+  }
+
+  &__conteiner {
+    overflow: hidden;
+  }
+
+  &__card {
+    position: relative;
+    height: 456px;
+    display: flex;
+    border: 1px solid #d3d3d3;
+    border-radius: 120px 4px;
+    transition: transform 0.2s;
+  }
+
+  &__list {
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    max-width: 510px;
+    margin-bottom: 48px;
+    text-align: center;
+    margin: 0 auto 48px;
+  }
+
+  &__button {
+    display: none;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+    }
+  }
+}

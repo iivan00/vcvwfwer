@@ -1,0 +1,16 @@
+.fonts-section {
+  color: var(--color-primary-dark);
+  line-height: 1.5;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 320px;
+  @media screen and (min-width: $bp-tablet) {
+    font-size: 22px;
+    max-width: 709px;
+  }
+}
+
+.fonts-section span {
+  font-weight: 700;
+}

@@ -1,0 +1,27 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="32" height="32" fill="#E4E4E4"/>
+<g id="&#208;&#188;&#208;&#190;&#208;&#180;&#208;&#176;&#208;&#187;&#209;&#140;&#208;&#189;&#208;&#190;&#208;&#181; &#208;&#190;&#208;&#186;&#208;&#189;&#208;&#190;">
+<rect width="1440" height="1024" transform="translate(-1008 -213)" fill="#011F4A" fill-opacity="0.4"/>
+<g id="&#208;&#190;&#208;&#186;&#208;&#189;&#208;&#190;">
+<g clip-path="url(#clip0_30_13827)">
+<rect x="-649" y="-42" width="723" height="681" rx="48" fill="#011C44"/>
+<g id="background">
+<g id="Group 4937">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M-398.023 110.605C-407.877 66.4078 -437.495 9.24003 -398.391 -19.4208C-358.676 -48.5305 -300.822 18.5545 -252.144 3.68266C-137.816 -31.2465 -59.7385 -205.638 47.2319 -155.566C141.57 -111.407 -20.1931 15.8677 -23.7228 110.605C-26.9915 198.336 118.072 323.692 28.0341 359.707C-76.7643 401.625 -148.637 246.353 -252.144 201.971C-282.727 188.858 -322.247 214.996 -350.005 197.611C-380.885 178.27 -390.679 143.547 -398.023 110.605Z" stroke="#011F4A" stroke-width="4"/>
+</g>
+</g>
+<g id="icon">
+<g id="Group">
+<path id="Vector_2" d="M8 8L16 16L24 8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector_3" d="M8 24L16 16L24 24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_30_13827">
+<rect x="-649" y="-42" width="723" height="681" rx="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>

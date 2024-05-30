@@ -1,0 +1,16 @@
+:root {
+  --сolor-primary-light: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-brand-light: #ffffff;
+  --color-landing: #4a4a4a;
+  --color-landing-second: #000000;
+  --color-landing-dark: #747272;
+}
+
+address {
+  font-style: normal;
+}
+
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-desktop: 1200px;

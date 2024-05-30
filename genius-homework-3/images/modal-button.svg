@@ -1,0 +1,12 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="btn-close" viewBox="0 0 32 32">
+<path d="M0 0h32v32h-32v-32z"></path>
+<path d="M-1008-213h1440v1024h-1440v-1024z"></path>
+<path d="M-601-42h627c26.51 0 48 21.49 48 48v585c0 26.51-21.49 48-48 48h-627c-26.51 0-48-21.49-48-48v-585c0-26.51 21.49-48 48-48z"></path>
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4" d="M-398.023 110.605c-9.854-44.197-39.472-101.365-0.368-130.026 39.715-29.11 97.569 37.975 146.247 23.103 114.328-34.929 192.405-209.321 299.376-159.249 94.338 44.159-67.425 171.434-70.955 266.171-3.269 87.731 141.795 213.087 51.757 249.102-104.798 41.918-176.671-113.354-280.178-157.736-30.583-13.113-70.103 13.025-97.861-4.36-30.88-19.341-40.674-54.064-48.018-87.006z"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M8 8l8 8 8-8"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M8 24l8-8 8 8"></path>
+</symbol>
+</defs>
+</svg>

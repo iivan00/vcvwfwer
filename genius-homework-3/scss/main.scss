@@ -1,0 +1,37 @@
+@import "./utils/variables";
+
+@import "./base";
+
+@import "./utils/keyframes-animation";
+@import "./utils/utils";
+
+@import "./components/buttons";
+@import "./components/carousel-button-arrow.scss";
+@import "./components/game-icon-images";
+@import "./components/input.scss";
+@import "./components/links.scss";
+@import "./components/pagination.scss";
+@import "./components/procedures-cards";
+@import "./components/star-icons";
+@import "./components/title-sections";
+
+@import "./layouts/about-sections";
+@import "./layouts/body";
+@import "./layouts/contact-section";
+@import "./layouts/conteiner";
+@import "./layouts/fonts-section";
+@import "./layouts/footer";
+@import "./layouts/form";
+@import "./layouts/formats-list";
+@import "./layouts/h-section";
+@import "./layouts/headers.scss";
+@import "./layouts/hero-sections";
+@import "./layouts/mobile-menu";
+@import "./layouts/modal";
+@import "./layouts/p-sections";
+@import "./layouts/procedures-section";
+@import "./layouts/reincarnate-section.scss";
+@import "./layouts/section";
+@import "./layouts/threatment-sections";
+@import "./layouts/traditions-sections";
+@import "./layouts/whyus-section";

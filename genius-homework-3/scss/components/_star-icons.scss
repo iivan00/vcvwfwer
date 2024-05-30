@@ -1,0 +1,53 @@
+.star-icon-1 {
+  fill: var(--color-primary-dark);
+  position: relative;
+  top: 350px;
+  left: 210px;
+  transform: translateX(-20px);
+  transition: background-color 1s, color 1s, transform 1s;
+  display: none;
+  @media screen and (min-width: $bp-desktop) {
+    display: block;
+  }
+}
+
+.star-icon-1:hover {
+  transform: translateX(0px);
+}
+
+.star-icon-2 {
+  fill: var(--сolor-primary-light);
+  position: relative;
+  left: 600px;
+  top: 70px;
+  transform: translateX(-20px);
+  transition: background-color 1s, color 1s, transform 1s;
+  display: none;
+  @media screen and (min-width: $bp-desktop) {
+    display: block;
+  }
+}
+
+.star-icon-2:hover {
+  transform: translateX(0px);
+}
+
+.star-icon-3 {
+  fill: var(--color-landing-dark);
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 600px;
+  top: 320px;
+  display: none;
+  transform: translateX(-20px);
+  transition: background-color 1s, color 1s, transform 1s;
+
+  @media screen and (min-width: $bp-desktop) {
+    display: block;
+  }
+}
+
+.star-icon-3:hover {
+  transform: translateX(0px);
+}

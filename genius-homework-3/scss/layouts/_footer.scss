@@ -1,0 +1,141 @@
+.footer-section {
+  text-align: center;
+  align-items: center;
+  padding: 56px 0;
+  position: relative;
+  font-family: "roboto", sans-serif;
+  text-decoration: none;
+  background-color: var(--color-primary-dark);
+  color: var(--color-brand-light);
+  overflow: hidden;
+
+  @media screen and (min-width: $bp-tablet) {
+    text-align: left;
+    align-items: left;
+  }
+
+  &::after {
+    color: var(--color-primary-dark);
+    position: absolute;
+    bottom: -58px;
+    display: none;
+    right: 0;
+    width: 270px;
+    height: 210px;
+    background-image: url("../images/hygieneproducts.png");
+    content: "";
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: $bp-desktop) {
+      display: block;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      flex-basis: 50%;
+    }
+  }
+
+  &__address {
+    flex-direction: column;
+    color: var(--color-brand-light);
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    gap: 186px;
+    transition: color 0.2s;
+    text-decoration: none;
+    line-height: 1.5;
+    font-family: "roboto", sans-serif;
+
+    &:hover {
+      color: var(--сolor-primary-light);
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      flex-basis: 50%;
+    }
+  }
+
+  &__menu {
+    flex-grow: 1;
+  }
+
+  &__contact {
+    display: flex;
+    flex-basis: 50%;
+    gap: 20px;
+    flex-direction: column;
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+    }
+  }
+
+  &__conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+    }
+  }
+
+  &__logo {
+    flex-grow: 1;
+  }
+
+  &__text {
+    color: var(--color-brand-light);
+    text-decoration: none;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    gap: 186px;
+    font-weight: 400;
+    transition: color 0.2s;
+    font-size: 16px;
+    font-family: "roboto", sans-serif;
+
+    &:hover {
+      color: var(--сolor-primary-light);
+    }
+  }
+
+  &__icon {
+    fill: var(--color-brand-light);
+    display: flex;
+    flex-grow: 1;
+    gap: 24px;
+    justify-content: center;
+    &:hover {
+      fill: var(--сolor-primary-light);
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+      justify-content: left;
+    }
+  }
+
+  &__info {
+    flex-grow: 1;
+    flex-direction: column;
+  }
+
+  &__list {
+    flex-grow: 1;
+  }
+
+  &__data {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--color-landing-dark);
+  }
+}

@@ -1,0 +1,37 @@
+.section {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 100px;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: 48px 0;
+    margin: 0 auto 48px;
+  }
+}
+
+.section-title span {
+  color: var(--сolor-primary-light);
+}
+
+.section-title {
+  color: var(--color-primary-dark);
+  font-size: 32px;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  max-width: 432px;
+  padding-bottom: 24px;
+
+  @media screen and (min-width: $bp-tablet) {
+    color: var(--color-primary-dark);
+    font-size: 64px;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    max-width: 432px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}
+
+.section-title.centered {
+  text-align: center;
+}

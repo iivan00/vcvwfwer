@@ -1,0 +1,29 @@
+.button-section {
+  margin: 0 auto;
+  display: block;
+
+  @media screen and (min-width: $bp-tablet) {
+    margin-bottom: 14px;
+    margin-left: 122px;
+  }
+}
+.button {
+  padding: 16px 32px;
+  color: #ffffff;
+  background-color: #2b7fff;
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: "roboto", sans-serif;
+  border: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+
+.backdrop-button {
+  fill: var(--color-brand-light);
+}
